@@ -1,6 +1,6 @@
 🔌 다 기능 전원 제어 장치 Git Hub
 ==========================================
-< Multi-Function Power Supply Device >
+## Multi-Function Power Supply Device 
 
 주제 : DE1_SOC 보드를 이용한 원격 전원제어장치
 
