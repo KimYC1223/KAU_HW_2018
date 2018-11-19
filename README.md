@@ -13,6 +13,6 @@
 
 ### 링크
 * [프로젝트 위키]()
-* [프로젝트 설계 보고서]()
+* [프로젝트 설계 보고서](https://docs.google.com/document/d/1IeziIMAUpHRamWqDd9RJulJZECYwCsv7B4q4vper5i4/edit?usp=sharing)
 
 ***
