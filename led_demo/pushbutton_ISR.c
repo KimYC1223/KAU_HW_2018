@@ -11,12 +11,12 @@ void pushbutton_ISR()
 	*(KEY_ptr + 3) = press;
 	printf("hi");
 	
-	if ((press & 0b01) != 0)
+	if(press == 1) // key0가 눌렸을 때
 	{
-		*JP1_ptr = 0b1;
+		*JP1_ptr = 0x1; // D0핀을 high로 설정해 bread board의 led on
 	}
-	else if ((press & 0b10) != 0)
+	else if(press == 2) // key1이 눌렸을 때
 	{
-		*JP1_ptr = 0;
+		*JP1_ptr = 0; // D0핀을 low로 설정해 bread board의 led off
 	}
 }
