@@ -6,6 +6,7 @@ void main(void);
 void interrupt_handler(void);
 void pushbutton_ISR(void);
 void timer_ISR(void);
+void GPIO_ISR(void);
 
 /* The assembly language code below handles CPU reset processing */
 void the_reset (void) __attribute__ ((section (".reset")));
@@ -129,9 +130,18 @@ void interrupt_handler(void)
 	int ipending;
 	NIOS2_READ_IPENDING(ipending);
 	
+	if( ipending & 0x1)
+	{
+		timer_ISR();
+	}
 	if( ipending & 0x2)
 	{
 		pushbutton_ISR();
+	}
+	
+	if ( ipending & 0b100000000000)
+	{
+		GPIO_ISR();
 	}
 
 	// else, ignore the interrupt
