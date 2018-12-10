@@ -7,14 +7,13 @@
 
 ***
 ### NOTICE
-- 18.11.20 설계 레포트가 완료 되었습니다.
-- 18.11.25 1주차 데모 준비가 완료 되었습니다.
-- 18.11.26 1주차 회의록이 완료 되었습니다.
+[![image](https://user-images.githubusercontent.com/40852277/49764082-cbc8b580-fd11-11e8-9d9b-1e438eacf705.png)](https://drive.google.com/file/d/1j9GdAIE577YxwQyaya6IUf_wyjjhicJV/view)
+- 18.12.11 모든 하드웨어 설계가 완료되었으며 최종 결과 보고서를 작성하였다.
 
 ***
 
 ### 링크
 * [프로젝트 위키](https://github.com/KimYC1223/KAU_HW_2018/wiki)
 * [프로젝트 설계 보고서](https://docs.google.com/document/d/1IeziIMAUpHRamWqDd9RJulJZECYwCsv7B4q4vper5i4/edit?usp=sharing)
-
+* [최종 결과 보고서]https://docs.google.com/document/d/1KtjfvRIkFoQ65lbD0xpDLbpnWic0ljpjdskC9-0ilvI/edit?usp=sharing
 ***
